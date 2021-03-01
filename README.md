@@ -1,10 +1,19 @@
 # ITDEV-164: Jeff Cate Project 1
 <p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
+<!-- 
+### Stories
+- [ ] As a _, I will _, so that I can. -->
 
-<!-- ## Features x
-* Feature 
-### User Stories
-- [ ] -->
+## Content creator
+* A content creator will use the implemented CMS to add, update, or remove content to the website.
+
+### Stories
+- [ ] As a content creator, I will access the CMS, so that I can add a blog post to the website.
+- [ ] As a content creator, I will access the CMS, so that I can update a blog post on the website.
+- [ ] As a content creator, I will access the CMS, so that I can remove a blog post from the website.
+
+
+
 
 ## Technologies (Requirement 1)
 
