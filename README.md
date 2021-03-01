@@ -1,6 +1,8 @@
 # ITDEV-164: Jeff Cate Project 1
 <p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
 <!-- 
+## Feature
+*  
 ### Stories
 - [ ] As a _, I will _, so that I can. -->
 
@@ -11,6 +13,14 @@
 - [ ] As a content creator, I will access the CMS, so that I can add a blog post to the website.
 - [ ] As a content creator, I will access the CMS, so that I can update a blog post on the website.
 - [ ] As a content creator, I will access the CMS, so that I can remove a blog post from the website.
+
+## Developer
+*  Stories about the development of the application and styled components
+### Stories
+- [ ] As a developer, I will create a Gatsby website, so that I can implement static site generation.
+- [ ] As a developer, I will create a React application, so that I can create custom components.
+- [ ] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
+- [ ] As a developer, I will implement Netlify, so that I can deploy my website.
 
 
 
