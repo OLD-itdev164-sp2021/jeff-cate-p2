@@ -1,6 +1,11 @@
 # ITDEV-164: Jeff Cate Project 1
 <p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
 
+<!-- ## Features x
+* Feature 
+### User Stories
+- [ ] -->
+
 ## Technologies (Requirement 1)
 
 - [ ] Gatsby
