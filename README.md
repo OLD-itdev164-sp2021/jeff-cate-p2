@@ -1,6 +1,6 @@
 # ITDEV-164: Jeff Cate Project 1
 
-<p>A motorcycle inventory content managers </p>
+* A motorcycle inventory content managers
 
 <!-- 
 ## Feature
@@ -10,14 +10,13 @@
 
 ## Content Manager
 * A content manager will use the implemented CMS to add, update, or remove motorcycles to the motorcycle inventory website.
-
 ### Stories
 - [ ] As a content manager, I will access the CMS, so that I can add a new motorcycle to the inventory.
 - [ ] As a content manager, I will access the CMS, so that I can update a motorcycle on the inventory.
 - [ ] As a content manager, I will access the CMS, so that I can remove a motorcycle from the inventory.
 
 ## Developer
-*  Stories about the development of the application and styled components
+* Stories about the development of the application and styled components.
 ### Stories
 - [ ] As a developer, I will create a Gatsby website, so that I can implement static site generation.
 - [ ] As a developer, I will create a React application, so that I can create custom components.
@@ -26,7 +25,7 @@
 
 ## Project 1: Description
 
-<p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
+* Create a website that utilizes the web development technologies specified in Requirement 1.
 
 ## Technologies (Requirement 1)
 
@@ -38,7 +37,7 @@
 
 ## Project Planning (Requirement 2)
 
-- [ ] Project description
+- [x] Project description
 - [x] Features list
     - [x] stories list
 - [x] Requirements document
