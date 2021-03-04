@@ -1,18 +1,20 @@
 # ITDEV-164: Jeff Cate Project 1
-<p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
+
+<p>A motorcycle inventory content managers </p>
+
 <!-- 
 ## Feature
 *  
 ### Stories
 - [ ] As a _, I will _, so that I can. -->
 
-## Content creator
-* A content creator will use the implemented CMS to add, update, or remove content to the website.
+## Content Manager
+* A content manager will use the implemented CMS to add, update, or remove motorcycles to the motorcycle inventory website.
 
 ### Stories
-- [ ] As a content creator, I will access the CMS, so that I can add a blog post to the website.
-- [ ] As a content creator, I will access the CMS, so that I can update a blog post on the website.
-- [ ] As a content creator, I will access the CMS, so that I can remove a blog post from the website.
+- [ ] As a content manager, I will access the CMS, so that I can add a new motorcycle to the inventory.
+- [ ] As a content manager, I will access the CMS, so that I can update a motorcycle on the inventory.
+- [ ] As a content manager, I will access the CMS, so that I can remove a motorcycle from the inventory.
 
 ## Developer
 *  Stories about the development of the application and styled components
@@ -22,8 +24,9 @@
 - [ ] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
 - [ ] As a developer, I will implement Netlify, so that I can deploy my website.
 
+## Project 1: Description
 
-
+<p>Create a website that utilizes the web development technologies specified in Requirement 1. </p>
 
 ## Technologies (Requirement 1)
 
@@ -36,9 +39,9 @@
 ## Project Planning (Requirement 2)
 
 - [ ] Project description
-- [ ] Features list
-    - [ ] stories list
-- [ ] Requirements document
+- [x] Features list
+    - [x] stories list
+- [x] Requirements document
 
 ## Manage Workflow using GitHub (Requirement 3)
 
