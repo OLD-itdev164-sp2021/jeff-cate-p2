@@ -18,6 +18,9 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          contact {
+            Name
+          }
         }
       }
     }
@@ -39,8 +42,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
+          © {new Date().getFullYear()}, Built by {data.site.siteMetadata.contact.Name} with {` `} 
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
