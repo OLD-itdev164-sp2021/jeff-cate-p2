@@ -31,21 +31,23 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
           padding: `0 1.0875rem 1.45rem`,
+          textAlign: `center`
         }}
       >
-        <main>{children}</main>
+      <main>{children}</main>
+      </div>
         <footer
           style={{
+            width: `100%`,
             marginTop: `2rem`,
+            position:`absolute`,
           }}
         >
           © {new Date().getFullYear()}, Built by {`${data.site.siteMetadata.contact.Name} with `}
           
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-      </div>
     </>
   )
 }
