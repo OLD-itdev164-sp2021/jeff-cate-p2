@@ -12,8 +12,9 @@ const SecondPage = ({data}) => (
     {
       data.allContentfulMotorcycle.edges.map(edge => (
         <li style={{listStyle:`none`}}>
-          <Link to={edge.node.slug} key={edge.node.id}>
-            <img src={edge.node.image.fluid.src} alt='motorcycle pic' />
+          <Link to={edge.node.slug} key={edge.node.id} >
+            <img src={edge.node.image.fluid.src} height='200px' alt='motorcycle pic' />
+            <p>{edge.node.year} {edge.node.make} {edge.node.model}</p>
           </Link> 
         </li>
       ))
@@ -29,6 +30,7 @@ query{
 	allContentfulMotorcycle{
     edges{
       node{
+        id
         slug
         year
     		image {
