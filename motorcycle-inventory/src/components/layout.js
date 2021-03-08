@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
           style={{
             width: `100%`,
             marginTop: `2rem`,
-            position:`absolute`,
+            position:`fixed`,
           }}
         >
           © {new Date().getFullYear()}, Built by {`${data.site.siteMetadata.contact.Name} with `}
