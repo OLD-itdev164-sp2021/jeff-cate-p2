@@ -11,7 +11,7 @@ const SecondPage = ({data}) => (
     <ul>
     {
       data.allContentfulMotorcycle.edges.map(edge => (
-        <li>
+        <li style={{listStyle:`none`}}>
           <Link to={edge.node.slug} key={edge.node.id}>
             <img src={edge.node.image.fluid.src} alt='motorcycle pic' />
           </Link> 
