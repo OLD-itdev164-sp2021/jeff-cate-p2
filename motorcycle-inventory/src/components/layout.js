@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{paddingBottom:`3rem`}}>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
@@ -40,15 +40,15 @@ const Layout = ({ children }) => {
         <footer
           style={{
             width: `100%`,
-            marginTop: `2rem`,
-            position:`absolute`,
+            marginTop: `3rem`,
+            position:"fixed"
           }}
         >
           © {new Date().getFullYear()}, Built by {`${data.site.siteMetadata.contact.Name} with `}
           
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-    </>
+    </div>
   )
 }
 
