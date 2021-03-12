@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to my new Gatsby site.</p>
+    <p><small><i>(click the image to get started.)</i></small></p>
     <Link to="/page-2/" >
     <StaticImage
       src={link}
@@ -22,7 +22,6 @@ const IndexPage = () => (
       />
       </Link>
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
   </Layout>
