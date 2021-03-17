@@ -16,7 +16,10 @@ const MotorcyclePost = ({ data }) => {
                 <span style={{display:`block`}}>Displacement: {displacement} cc</span>
                 <span style={{display:`block`}}>Description: </span>
             </p>
-            <div dangerouslySetInnerHTML={{__html: description.childrenMarkdownRemark.html}}></div>
+            <div style={{ textAlign:`left`, minWidth: `340px`,maxWidth: `750px`,margin: `0 auto`}}
+                 dangerouslySetInnerHTML={{__html: description.childrenMarkdownRemark[0].html}}
+              >
+            </div>
             <button 
                 style={{
                     background:`black`, 
