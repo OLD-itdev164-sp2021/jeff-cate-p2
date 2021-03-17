@@ -19,9 +19,9 @@ module.exports = {
         accessToken:`${process.env.ACCESS_TOKEN}`
       }
   },
-    `gatsby-plugin-image`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
+    `gastby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
