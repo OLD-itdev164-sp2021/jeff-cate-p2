@@ -27,7 +27,7 @@ aside,
 details,
 figcaption,
 figure,
-/* footer, */
+footer,
 header,
 main,
 menu,

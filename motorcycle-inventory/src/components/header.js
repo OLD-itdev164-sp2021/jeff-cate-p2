@@ -4,7 +4,7 @@ import React from "react"
 import styled from 'styled-components'
 
 const Outer = styled.header`
-  background: rgb(0,0,0);
+  background: ${props => props.theme.header.backgroundColor};
   margin-bottom: 1.45rem;
 `
 

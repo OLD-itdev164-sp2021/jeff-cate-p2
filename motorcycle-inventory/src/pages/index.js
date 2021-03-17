@@ -21,9 +21,6 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
       />
       </Link>
-    <p>
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
   </Layout>
 )
 

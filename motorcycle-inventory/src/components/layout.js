@@ -5,22 +5,21 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import * as React from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import styled from 'styled-components'
-
+import styled, { ThemeProvider } from 'styled-components'
+import { Orange } from '../theme/Orange'
 import Header from "./header"
 import { GlobalStyle } from './GlobalStyle'
 
 const Content = styled.div`
-  padding: 0 1.0875rem 1.45rem;
+  /* padding: 0 1.0875rem 1.45rem; */
   text-align: center;
   margin-bottom: 2rem; // maybe margin top in footer
 `
 const StyledFooter = styled.footer`
   width: 100%;
-  /* margin-top: 5rem; */
   position:fixed;
 `
 
@@ -39,18 +38,18 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <ThemeProvider theme={Orange}>
       <GlobalStyle />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Content>
-      <main>{children}</main>
-      </Content>
+        <main>{children}</main>
         <StyledFooter>
           © {new Date().getFullYear()}, Built by {data.site.siteMetadata.contact.Name} 
           {' '}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </StyledFooter>
-    </>
+      </Content>
+    </ThemeProvider>
   )
 }
 
