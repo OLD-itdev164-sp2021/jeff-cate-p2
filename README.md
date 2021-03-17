@@ -20,7 +20,7 @@
 ### Stories
 - [x] As a developer, I will create a Gatsby website, so that I can implement static site generation.
 - [x] As a developer, I will create a React application, so that I can create custom components.
-- [ ] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
+- [x] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
 - [ ] As a developer, I will implement Netlify, so that I can deploy my website.
 
 ## Project 1: Description
