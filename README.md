@@ -11,15 +11,15 @@
 ## Content Manager
 * A content manager will use the implemented CMS to add, update, or remove motorcycles to the motorcycle inventory website.
 ### Stories
-- [ ] As a content manager, I will access the CMS, so that I can add a new motorcycle to the inventory.
-- [ ] As a content manager, I will access the CMS, so that I can update a motorcycle on the inventory.
-- [ ] As a content manager, I will access the CMS, so that I can remove a motorcycle from the inventory.
+- [x] As a content manager, I will access the CMS, so that I can add a new motorcycle to the inventory.
+- [x] As a content manager, I will access the CMS, so that I can update a motorcycle on the inventory.
+- [x] As a content manager, I will access the CMS, so that I can remove a motorcycle from the inventory.
 
 ## Developer
 * Stories about the development of the application and styled components.
 ### Stories
-- [ ] As a developer, I will create a Gatsby website, so that I can implement static site generation.
-- [ ] As a developer, I will create a React application, so that I can create custom components.
+- [x] As a developer, I will create a Gatsby website, so that I can implement static site generation.
+- [x] As a developer, I will create a React application, so that I can create custom components.
 - [ ] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
 - [ ] As a developer, I will implement Netlify, so that I can deploy my website.
 
@@ -29,10 +29,10 @@
 
 ## Technologies (Requirement 1)
 
-- [ ] Gatsby
-- [ ] React
+- [x] Gatsby
+- [x] React
 - [ ] Styled Components
-- [ ] Contentful (or another Gatsby-compatible CMS)
+- [x] Contentful (or another Gatsby-compatible CMS)
 - [ ] Netlify
 
 ## Project Planning (Requirement 2)
