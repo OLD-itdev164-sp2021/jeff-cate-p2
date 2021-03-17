@@ -20,6 +20,7 @@ module.exports = {
       }
   },
     `gatsby-plugin-image`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
