@@ -10,13 +10,13 @@ const MotorcyclePost = ({ data }) => {
             <img src={image.fluid.src} style={{maxHeight:`500px`}}  alt="motorcycle"></img>
             <h2> {make} {model}</h2>
             
-            <p style={{ textAlign:`left`, minWidth: `340px`,maxWidth: `750px`,margin: `0 auto`}}>
+            <p style={{ textAlign:`left`, minWidth: `340px`,maxWidth: `580px`,margin: `0 auto`}}>
                 <span style={{display:`block`}}>Year: {year}</span>
                 <span style={{display:`block`}}>Price: ${price}</span>
                 <span style={{display:`block`}}>Displacement: {displacement} cc</span>
                 <span style={{display:`block`}}>Description: </span>
             </p>
-            <div style={{ textAlign:`left`, minWidth: `340px`,maxWidth: `750px`,margin: `0 auto`}}
+            <div style={{ textAlign:`left`, minWidth: `340px`,maxWidth: `570px`,margin: `0 auto`}}
                  dangerouslySetInnerHTML={{__html: description.childrenMarkdownRemark[0].html}}
               >
             </div>
