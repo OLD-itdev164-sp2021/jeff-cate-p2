@@ -16,7 +16,7 @@ import { GlobalStyle } from './GlobalStyle'
 const Content = styled.div`
   /* padding: 0 1.0875rem 1.45rem; */
   text-align: center;
-  margin-bottom: 2rem; // maybe margin top in footer
+  margin-bottom: 3rem; // maybe margin top in footer
 `
 const StyledFooter = styled.footer`
   width: 100%;
