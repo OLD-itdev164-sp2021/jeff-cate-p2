@@ -21,7 +21,7 @@
 - [x] As a developer, I will create a Gatsby website, so that I can implement static site generation.
 - [x] As a developer, I will create a React application, so that I can create custom components.
 - [x] As a developer, I will implement the Styled Components, so that I can create custom styles for my components.
-- [ ] As a developer, I will implement Netlify, so that I can deploy my website.
+- [x] As a developer, I will implement Netlify, so that I can deploy my website.
 
 ## Project 1: Description
 
@@ -31,9 +31,9 @@
 
 - [x] Gatsby
 - [x] React
-- [ ] Styled Components
+- [x] Styled Components
 - [x] Contentful (or another Gatsby-compatible CMS)
-- [ ] Netlify
+- [x] Netlify
 
 ## Project Planning (Requirement 2)
 
