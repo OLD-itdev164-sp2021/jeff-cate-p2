@@ -2,8 +2,16 @@
 ## BuyHere (bī′ər)
 * An e-commerce site
 
-<!--
+* A motorcycle inventory content managers
 
+<!-- 
+## Feature
+*  
+### Stories
+- [ ] As a _, I will _, so that I can. -->
+
+## Content Manager
+* A content manager will use the implemented CMS to add, update, or remove motorcycles to the motorcycle inventory website.
 ### Stories
 - [ ] As a _, I will _, so that I can. 
 
