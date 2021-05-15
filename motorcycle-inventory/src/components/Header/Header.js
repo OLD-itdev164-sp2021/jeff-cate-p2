@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components'
+import { H1 } from '../Heading'
 
 const Outer = styled.header`
   background: ${props => props.theme.header.backgroundColor};
@@ -13,10 +14,10 @@ const Inner = styled.div`
   max-width: 960;
   padding: 1.45rem 1.0875rem;
 `
-const H1 = styled.h1`
-  margin: 0;
-  text-align: center;
-`
+// const H1 = styled.h1`
+//   margin: 0;
+//   text-align: center;
+// `
 
 const StyledLink = styled(Link)`
   color: rgb(255,165,0);
@@ -29,7 +30,7 @@ const StyledLink = styled(Link)`
 const Header = ({ siteTitle }) => (
   <Outer>
     <Inner>
-      <H1>
+      <H1 textAlign='center'>
         <StyledLink to="/">
           {siteTitle}
         </StyledLink>

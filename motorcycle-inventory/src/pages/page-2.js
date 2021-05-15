@@ -4,11 +4,12 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { List, ListItem } from "../components/List"
+import { H1 } from '../components/Heading'
 
 const SecondPage = ({data}) => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Current inventory</h1>
+    <H1>Current inventory</H1>
     <List width={[1, 1/2, 2/3]} p={2}>
     {
       data.allContentfulMotorcycle.edges.map(edge => (
