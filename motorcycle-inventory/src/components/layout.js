@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from 'styled-components'
 import { Orange } from '../theme/Orange'
-import Header from "./header"
+import { Header } from "./Header"
 import { GlobalStyle } from './GlobalStyle'
 
 const Content = styled.div`
