@@ -5,7 +5,7 @@ import { BaseContainer } from '../BaseContainer'
 export const List = ({ children, ...rest }) => (
     <BaseContainer
       flex
-      flexDiction='column'
+      flexDirection='column'
       mx='auto'
       as='ul'
       {...rest}
